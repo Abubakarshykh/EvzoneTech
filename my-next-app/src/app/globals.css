@@ -22,25 +22,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Tactic Sans', sans-serif;
-}
-
-.curved-section {
-  background: #f4a900; /* Yellow Background */
-  width: 62.5%;
-  height: 867.69px;
-  position: absolute;
-  left: 506.28px;
-  top: 0;
-  
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-  border-top-left-radius: 100px;  /* Smooth top-left curve */
-  border-bottom-left-radius: 300px; /* More rounded bottom */
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  font-family: tactic-sans, Helvetica, sans-serif;
 }
 
 /* Hide scrollbar for all browsers */
@@ -52,9 +34,3 @@ html {
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For IE and Edge */
 }
-
-
-
-
-
-
